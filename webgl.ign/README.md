@@ -11,3 +11,5 @@ This is the most basic application that one can create, using WebGL capabilities
 ## External libs
 
 * [Three.js](https://github.com/mrdoob/three.js/)
+
+Creator : https://github.com/zcbenz
