@@ -63,7 +63,7 @@
       }
       
       function loadIgnSDKItems(tx, rs) {
-        var rowOutput = "";
+        var rowOutput = "<tr><td width='2%'>Id</td><td width='20%'>Nama</td><td>NIM</td><td>Fakultas</td><td>Prodi</td><td>Time Stamp</td><td>Delete</td></tr>";
         var IgnSDKItems = document.getElementById("IgnSDKItems");
         for (var i=0; i < rs.rows.length; i++) {
         rowOutput += renderIgnSDK(rs.rows.item(i));
